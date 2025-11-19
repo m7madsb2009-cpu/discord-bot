@@ -1,4 +1,9 @@
+// ====== إعدادات البوت ======
+const BOT_TOKEN = "MTQ0MDY5MzA5MDEwODA0NzQwMA.GmTS3x.Oq4KzriDpX5aTMgE3Gr7gFdvRughMyKxylrWOc";  
+const JOIN_LOG_CHANNEL = "1440786023863812288";    
+const LEAVE_LOG_CHANNEL = "1440786046458662995";  
 
+// ====== كود البوت الأساسي ======
 import { Client, GatewayIntentBits, Partials, REST, Routes, EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder } from 'discord.js';
 import fs from 'fs';
 import express from 'express';
